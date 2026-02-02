@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #212121;
+    color: #fff;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.nav-1 h2 {
+    margin: 10px;
+}
+.nav-2{
+    margin: 15px;
+}
+.child{
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.nav-3{
+    margin: 15px;
+}
+.btn-1{
+    border: 1px solid #fff;
+    background-color: #212121;
+    color: #fff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 100px;
+}
+.btn-2{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #212121;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 100px;
+}
+.child:hover{
+    color: rgba(236, 237, 236, 0.133);
+}
+.btn-1:hover{
+    background: rgba(236, 237, 236, 0.133);
+}
+.btn-2:hover{
+    background: #e8e8e8;
+}
+section{
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 20px;
+    padding-top: 50px;
+    
+}
+.btn-3{
+    border: 1px solid #fff;
+    background-color: #fff;
+    color: #212121;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 30px;
+    border-radius: 100px;
+}
+.btn-3:hover{
+    background: #e8e8e8;
+}
+.image{
+    width: 80%;
+    height: 600px;
+    background-color: #b7b6b6;
+    margin: 70px 120px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 70px;
+}
+.image img{
+    width: 700px;
+    border-radius: 5px;
+}
